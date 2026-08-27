@@ -1,0 +1,22 @@
+# ---------- secrets: never commit ----------
+.env
+appsettings.Development.json
+*.key
+
+# ---------- build output ----------
+bin/
+obj/
+dist/
+node_modules/
+*.user
+
+# ---------- runtime data ----------
+uploads/
+
+# ---------- course-supplied documents (not our work to redistribute) ----------
+*.pdf
+
+# ---------- OS clutter ----------
+.DS_Store
+Thumbs.db
+~$*
