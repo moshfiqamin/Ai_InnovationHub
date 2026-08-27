@@ -13,8 +13,8 @@ them in communities, enter them into competitions, and connect with mentors and 
 ## Team
 
 | Name |
-|------|-----------|
-| S M Moshfiq Ul Amin 
+|------|
+| S M Moshfiq Ul Amin |
 
 ---
 
