@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Abstract collaboration workspace">
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#e8e3dc"/>
+      <stop offset="55%" stop-color="#cfc9c1"/>
+      <stop offset="100%" stop-color="#9a948d"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6b6560"/>
+      <stop offset="100%" stop-color="#3d3936"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+
+  <!-- Wall -->
+  <rect width="1600" height="900" fill="url(#room)"/>
+
+  <!-- Window light wash -->
+  <ellipse cx="300" cy="180" rx="420" ry="300" fill="#ffffff" opacity=".45" filter="url(#soft)"/>
+
+  <!-- Whiteboard -->
+  <rect x="870" y="120" width="660" height="400" rx="10" fill="#f7f5f2" opacity=".95"/>
+  <rect x="870" y="120" width="660" height="400" rx="10" fill="none" stroke="#b8b2aa" stroke-width="3"/>
+
+  <!-- Sticky notes on the board -->
+  <g>
+    <rect x="860"  y="140" width="66" height="66" rx="4" fill="#f06292" transform="rotate(-3 893 173)"/>
+    <rect x="948"  y="132" width="66" height="66" rx="4" fill="#ffb74d" transform="rotate(2 981 165)"/>
+    <rect x="1036" y="146" width="66" height="66" rx="4" fill="#ffd54f" transform="rotate(-2 1069 179)"/>
+    <rect x="1160" y="136" width="66" height="66" rx="4" fill="#ff8a65" transform="rotate(3 1193 169)"/>
+    <rect x="1248" y="148" width="66" height="66" rx="4" fill="#ffd54f" transform="rotate(-1 1281 181)"/>
+    <rect x="1360" y="138" width="66" height="66" rx="4" fill="#f06292" transform="rotate(2 1393 171)"/>
+    <rect x="1448" y="150" width="66" height="66" rx="4" fill="#ffb74d" transform="rotate(-3 1481 183)"/>
+
+    <rect x="876"  y="238" width="66" height="66" rx="4" fill="#ffd54f" transform="rotate(2 909 271)"/>
+    <rect x="964"  y="246" width="66" height="66" rx="4" fill="#ff8a65" transform="rotate(-2 997 279)"/>
+    <rect x="1176" y="240" width="66" height="66" rx="4" fill="#f06292" transform="rotate(1 1209 273)"/>
+    <rect x="1264" y="250" width="66" height="66" rx="4" fill="#ffd54f" transform="rotate(-3 1297 283)"/>
+    <rect x="1376" y="244" width="66" height="66" rx="4" fill="#ffb74d" transform="rotate(2 1409 277)"/>
+
+    <rect x="892"  y="342" width="66" height="66" rx="4" fill="#ff8a65" transform="rotate(-2 925 375)"/>
+    <rect x="1192" y="346" width="66" height="66" rx="4" fill="#ffd54f" transform="rotate(3 1225 379)"/>
+    <rect x="1288" y="338" width="66" height="66" rx="4" fill="#f06292" transform="rotate(-1 1321 371)"/>
+  </g>
+
+  <!-- Desk -->
+  <rect x="0" y="640" width="1600" height="260" fill="url(#desk)"/>
+  <rect x="0" y="630" width="1600" height="18" fill="#7d766f"/>
+
+
+  <!-- Warm ambient glow so the scrim reads naturally over it -->
+  <ellipse cx="1150" cy="300" rx="500" ry="360" fill="#ffcf99" opacity=".16" filter="url(#soft)"/>
+</svg>
