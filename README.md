@@ -12,12 +12,9 @@ them in communities, enter them into competitions, and connect with mentors and 
 
 ## Team
 
-| Name | Student ID |
+| Name |
 |------|-----------|
-| S M Moshfiq Ul Amin | 22301784 |
-| Md Ferdous Khan Nipun | 22301346 |
-| Esrat Jahan Reya | 21101039 |
-| Mirza Golam Baized | 22201812 |
+| S M Moshfiq Ul Amin 
 
 ---
 
