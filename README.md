@@ -141,7 +141,7 @@ Fourteen modules deliver twenty functional features.
 
 | Module | Features |
 |--------|----------|
-| Authentication | Registration, login, nine-role access control *(not counted as a feature per the course guide)* |
+| Authentication | Registration, login, nine-role access control |
 | Landing | Public entry page |
 | Dashboard | AI personalised recommendations · Analytics summary |
 | Innovation Feed | Feed with sorting, filtering, search, upvotes, bookmarks, comments |
@@ -273,4 +273,4 @@ pgweb --url "postgresql://$(whoami)@localhost:5432/ai_innovationhub?sslmode=disa
 
 ## License
 
-Coursework submitted for CSE470 at BRAC University.
+Software Engineering project.
